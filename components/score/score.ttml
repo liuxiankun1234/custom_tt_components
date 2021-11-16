@@ -1,0 +1,7 @@
+<view class="score">
+    <block tt:for="{{scoreList}}" tt:for-item="score" data-a="{{score.class}}">
+        <view class="score-item pic-group">
+            <image src="../../static/icon/star{{score.class}}.png" />
+        </view>
+    </block>
+</view>
